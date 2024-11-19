@@ -7,6 +7,7 @@ Mata kuliah : Bahasa Pemrograman <p>
 ## Code Program
 ![gambar 1](screenshot/ft2.png)
 ![gambar 2](screenshot/ft1.png)
+### Penjelasan Program
 1. Header dan Kelas Student:
            
        print("\nProgram Input Nilai")
