@@ -53,6 +53,7 @@ Mata kuliah : Bahasa Pemrograman <p>
 
    - ```find_student_index``` mencari indeks mahasiswa berdasarkan NIM. Mengembalikan ```None``` jika NIM tidak ditemukan.
 4. Fungsi Utama:
+
        def main():
            students = []
            while True:
