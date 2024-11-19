@@ -117,3 +117,6 @@ Mata kuliah : Bahasa Pemrograman <p>
      - **Hapus (```h```)**: Menghapus data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa dihapus dari daftar students.
      - **Cari (```c```)**: Mencari dan menampilkan data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa ditampilkan.
      - **Keluar (```k```)**: Keluar dari program.
+## Output Program
+![gambar 3](screenshot/ft3.png)
+![gambar 4](screenshot/ft4.png)
