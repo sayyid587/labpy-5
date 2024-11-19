@@ -4,6 +4,9 @@ NIM : 312410496 <p>
 Kelas : TI.24.A.5 <p>
 Mata kuliah : Bahasa Pemrograman <p>
 # ```Program Input Nilai```
+## Code Program
+![gambar 1](screenshot/ft1.png)
+![gambar 2](screenshot/ft2.png)
 1. Header dan Kelas Student:
            
        print("\nProgram Input Nilai")
