@@ -22,7 +22,7 @@ Mata kuliah : Bahasa Pemrograman <p>
                return round((self.tugas * 0.3) + (self.uts * 0.35) + (self.uas * 0.35), 2)
    
       - Kode ini mencetak judul program dan mendefinisikan kelas ```Student``` yang memiliki atribut ```nim```, ```nama```, ```tugas```, ```uts```, ```uas```, dan ```akhir```.
-      - calculate_final_grade adalah metode yang menghitung nilai akhir berdasarkan bobot tugas (30%), UTS (35%), dan UAS (35%).
+      - ```calculate_final_grade``` adalah metode yang menghitung nilai akhir berdasarkan bobot tugas (30%), UTS (35%), dan UAS (35%).
         
 2. Fungsi Menampilkan Menu dan Daftar Mahasiswa:
 
@@ -107,9 +107,9 @@ Mata kuliah : Bahasa Pemrograman <p>
    - Fungsi main adalah fungsi utama yang menjalankan program.
    - Variabel students menyimpan daftar objek Student.
    - Program menampilkan menu dan menangani pilihan pengguna:
-     - Tambah (t): Menambah data mahasiswa baru ke dalam daftar students.
-     - Lihat (l): Menampilkan daftar mahasiswa.
-     - Ubah (u): Mengubah data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa diperbarui dengan data baru.
-     - Hapus (h): Menghapus data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa dihapus dari daftar students.
-     - Cari (c): Mencari dan menampilkan data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa ditampilkan.
-     - Keluar (k): Keluar dari program.
+     - **Tambah (```t```)**: Menambah data mahasiswa baru ke dalam daftar students.
+     - **Lihat (```l```)**: Menampilkan daftar mahasiswa.
+     - **Ubah (```u```)**: Mengubah data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa diperbarui dengan data baru.
+     - **Hapus (```h```)**: Menghapus data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa dihapus dari daftar students.
+     - **Cari (```c```)**: Mencari dan menampilkan data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa ditampilkan.
+     - **Keluar (```k```)**: Keluar dari program.
