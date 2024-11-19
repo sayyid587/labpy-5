@@ -5,7 +5,7 @@ Kelas : TI.24.A.5 <p>
 Mata kuliah : Bahasa Pemrograman <p>
 # ```Program Input Nilai```
 1. Header dan Kelas Student:
-       
+           
        print("\nProgram Input Nilai")
        print("===================")
       
@@ -26,21 +26,21 @@ Mata kuliah : Bahasa Pemrograman <p>
         
 2. Fungsi Menampilkan Menu dan Daftar Mahasiswa:
 
-          def display_menu():
-              print("\n[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari (K)eluar]: ", end=' ')
-       
-          def display_students(students):
-              print("\nDaftar Nilai")
-              print("=" * 84)
-              print(f"| {'NO':<3} | {'NIM':<10} | {'NAMA':<30} | {'TUGAS':<6} | {'UTS':<4} | {'UAS':<4} | {'AKHIR':<5} |")
-              print("=" * 84)
-              if not students:
-                 print(f"| {'TIDAK ADA DATA':^80} |")
-              else:
-                  for i, student in enumerate(students, start=1):
-                      print(f"| {i:<3} | {student.nim:<10} | {student.nama:<30} | {student.tugas:<6} | {student.uts:<4} | {student.uas:<4} | {student.akhir:<5} |")
-              print("=" * 84)
-
+       def display_menu():
+                     print("\n[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari (K)eluar]: ", end=' ')
+              
+                 def display_students(students):
+                     print("\nDaftar Nilai")
+                     print("=" * 84)
+                     print(f"| {'NO':<3} | {'NIM':<10} | {'NAMA':<30} | {'TUGAS':<6} | {'UTS':<4} | {'UAS':<4} | {'AKHIR':<5} |")
+                     print("=" * 84)
+                     if not students:
+                        print(f"| {'TIDAK ADA DATA':^80} |")
+                     else:
+                         for i, student in enumerate(students, start=1):
+                             print(f"| {i:<3} | {student.nim:<10} | {student.nama:<30} | {student.tugas:<6} | {student.uts:<4} | {student.uas:<4} | {student.akhir:<5} |")
+                     print("=" * 84)
+          
    - ```display_menu``` menampilkan menu pilihan kepada pengguna.
    - ```display_students``` menampilkan daftar nilai mahasiswa dalam format tabel. Jika tidak ada data, pesan "TIDAK ADA DATA" akan ditampilkan.
 3. Fungsi Mencari Indeks Mahasiswa:
