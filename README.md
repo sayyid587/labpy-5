@@ -104,10 +104,10 @@ Mata kuliah : Bahasa Pemrograman <p>
        if __name__ == "__main__":
            main()
 
-   - Fungsi main adalah fungsi utama yang menjalankan program.
-   - Variabel students menyimpan daftar objek Student.
+   - Fungsi ```main``` adalah fungsi utama yang menjalankan program.
+   - Variabel ```students``` menyimpan daftar objek ```Student```.
    - Program menampilkan menu dan menangani pilihan pengguna:
-     - **Tambah (```t```)**: Menambah data mahasiswa baru ke dalam daftar students.
+     - **Tambah (```t```)**: Menambah data mahasiswa baru ke dalam daftar ```students```.
      - **Lihat (```l```)**: Menampilkan daftar mahasiswa.
      - **Ubah (```u```)**: Mengubah data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa diperbarui dengan data baru.
      - **Hapus (```h```)**: Menghapus data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa dihapus dari daftar students.
