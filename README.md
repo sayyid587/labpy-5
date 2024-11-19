@@ -52,6 +52,63 @@ Mata kuliah : Bahasa Pemrograman <p>
               return None
 
    - ```find_student_index``` mencari indeks mahasiswa berdasarkan NIM. Mengembalikan ```None``` jika NIM tidak ditemukan.
+4. Fungsi Utama:
+       def main():
+           students = []
+           while True:
+               display_menu()
+               choice = input().lower()
+               if choice == 't':
+                   nim = input("\nNIM: ")
+                   nama = input("Nama: ")
+                   tugas = int(input("Nilai Tugas: "))
+                   uts = int(input("Nilai UTS: "))
+                   uas = int(input("Nilai UAS: "))
+                   students.append(Student(nim, nama, tugas, uts, uas))
+               elif choice == 'l':
+                   display_students(students)
+               elif choice == 'u':
+                   nim = input("\nMasukkan NIM mahasiswa yang akan diubah: ")
+                   index = find_student_index(students, nim)
+                   if index is not None:
+                       print("Data baru:")
+                       nama = input("Nama: ")
+                       tugas = int(input("Nilai Tugas: "))
+                       uts = int(input("Nilai UTS: "))
+                       uas = int(input("Nilai UAS: "))
+                       students[index] = Student(nim, nama, tugas, uts, uas)
+                   else:
+                       print("Mahasiswa dengan NIM tersebut tidak ditemukan.")
+               elif choice == 'h':
+                   nim = input("\nMasukkan NIM mahasiswa yang akan dihapus: ")
+                   index = find_student_index(students, nim)
+                   if index is not None:
+                       del students[index]
+                       print("Data mahasiswa berhasil dihapus.")
+                   else:
+                       print("Mahasiswa dengan NIM tersebut tidak ditemukan.")
+               elif choice == 'c':
+                   nim = input("\nMasukkan NIM mahasiswa yang dicari: ")
+                   index = find_student_index(students, nim)
+                   if index is not None:
+                       student = students[index]
+                       print(f"\nNIM: {student.nim}\nNama: {student.nama}\nNilai Tugas: {student.tugas}\nNilai UTS: {student.uts}\nNilai UAS: {student.uas}\nNilai Akhir: {student.akhir}")
+                   else:
+                       print("Mahasiswa dengan NIM tersebut tidak ditemukan.")
+               elif choice == 'k':
+                   break
+               else:
+                   print("Pilihan tidak valid!")
+       
+       if __name__ == "__main__":
+           main()
 
-
-   
+- Fungsi main adalah fungsi utama yang menjalankan program.
+- Variabel students menyimpan daftar objek Student.
+- Program menampilkan menu dan menangani pilihan pengguna:
+  >Tambah (t): Menambah data mahasiswa baru ke dalam daftar students.
+  >Lihat (l): Menampilkan daftar mahasiswa.
+  >Ubah (u): Mengubah data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa diperbarui dengan data baru.
+  >Hapus (h): Menghapus data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa dihapus dari daftar students.
+  >Cari (c): Mencari dan menampilkan data mahasiswa berdasarkan NIM yang diberikan. Jika NIM ditemukan, data mahasiswa ditampilkan.
+  >Keluar (k): Keluar dari program.
