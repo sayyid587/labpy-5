@@ -4,6 +4,9 @@ NIM : 312410496 <p>
 Kelas : TI.24.A.5 <p>
 Mata kuliah : Bahasa Pemrograman <p>
 # ```Program Input Nilai```
+## Flowchart
+![gambar 5](screenshot/ft5.png)
+![gambar 6](screenshot/ft6.png)
 ## Code Program
 ![gambar 1](screenshot/ft2.png)
 ![gambar 2](screenshot/ft1.png)
