@@ -49,6 +49,7 @@ def main():
         elif choice == 'l':
             display_students(students)
         elif choice == 'u':
+            display_students(students)
             nim = input("\nMasukkan NIM mahasiswa yang akan diubah: ")
             index = find_student_index(students, nim)
             if index is not None:
@@ -61,6 +62,7 @@ def main():
             else:
                 print("Mahasiswa dengan NIM tersebut tidak ditemukan.")
         elif choice == 'h':
+            display_students(students)
             nim = input("\nMasukkan NIM mahasiswa yang akan dihapus: ")
             index = find_student_index(students, nim)
             if index is not None:
