@@ -8,8 +8,8 @@ Mata kuliah : Bahasa Pemrograman <p>
 ![gambar 5](screenshot/ft5.png)
 ![gambar 6](screenshot/ft6.png)
 ## Code Program
-![gambar 1](screenshot/ft2.png)
-![gambar 2](screenshot/ft1.png)
+![gambar 1](screenshot/ft1.png)
+![gambar 2](screenshot/ft2.png)
 ### Penjelasan Program
 1. Header dan Kelas Student:
            
